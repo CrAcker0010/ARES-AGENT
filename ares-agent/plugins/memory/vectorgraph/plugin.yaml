@@ -1,0 +1,6 @@
+name: vectorgraph
+version: 1.0.0
+description: "Local Vector Database and Graph Memory Provider — calculates facts similarity via TF-IDF and allows model-defined connections between concepts with an interactive HTML network graph visualizer."
+hooks:
+  - on_memory_write
+  - on_session_end

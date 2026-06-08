@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@ares/ink": ["src/types/ares-ink.d.ts"]
+    }
+  }
+}

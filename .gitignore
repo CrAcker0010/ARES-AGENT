@@ -1,0 +1,80 @@
+# Sensitive / Credentials
+.env
+auth.json
+auth.lock
+
+# Databases and State Files
+*.db
+*.db-shm
+*.db-wal
+state.db
+kanban.db
+vectorgraph.db
+kanban.db.init.lock
+gateway_state.json
+graph_data.js
+
+# Backup files
+*.bak
+*.bak.*
+config.yaml.bak.*
+
+# Logs
+logs/
+*.log
+interrupt_debug.log
+
+# Cache directories
+cache/
+*cache/
+audio_cache/
+image_cache/
+models_dev_cache.json
+ollama_cloud_models_cache.json
+provider_models_cache.json
+
+# Local Environment/Temp files
+.ares_history
+.skills_prompt_snapshot.json
+.update_check
+scratch/
+sandboxes/
+pairing/
+whatsapp/
+
+# Python virtual environment and build files
+venv/
+**/venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Node.js
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*

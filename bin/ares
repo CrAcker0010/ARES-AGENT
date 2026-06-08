@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+exec "C:\Users\krish\AppData\Local\ares\ares-agent\venv\Scripts\ares.exe" "$@"
