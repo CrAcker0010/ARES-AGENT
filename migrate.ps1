@@ -1,5 +1,7 @@
 # migrate.ps1
+Write-Host "Progressing Towards " -ForegroundColor Cyan
 Write-Host "Starting migration from Ares to Ares..." -ForegroundColor Cyan
+
 
 # 1. Stop any running processes from the ares directory
 Write-Host "Stopping any running Ares processes..." -ForegroundColor Yellow
