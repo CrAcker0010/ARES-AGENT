@@ -1,5 +1,5 @@
 # migrate.ps1
-Write-Host "Progressing Towards " -ForegroundColor Cyan
+Write-Host "Progressing Towards " -ForegroundColor Red
 Write-Host "Starting migration from Ares to Ares..." -ForegroundColor Cyan
 
 
